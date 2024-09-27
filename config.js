@@ -16,16 +16,16 @@ module.exports = {
    AUTO_REACT: toBool(process.env.AUTO_REACT) || false,
 
    // String Values
-   SESSION_ID: process.env.SESSION_ID || "", // Put your session
+   SESSION_ID: process.env.SESSION_ID || "Session~1cp4Lp9S", // Put your session
    HANDLERS: process.env.HANDLER === "false" || process.env.HANDLER === "null" ? "^" : "[.]",
-   BOT_INFO: process.env.BOT_INFO || "Kɢᴛᴇᴄʜ;KᴇʀᴍLɪᴛᴇ⚡️;https://telegra.ph/file/3ac47cbad32a86aa12251.jpg", // YourName;BotName;Image/VideoLink
-   SUDO: process.env.SUDO || "237656520674",
+   BOT_INFO: process.env.BOT_INFO || "Kɢᴛᴇᴄʜ;KᴇʀᴍLɪᴛᴇ⚡️;https://telegra.ph/file/7d8f9f70c06a3b1927e38.jpg", // YourName;BotName;Image/VideoLink
+   SUDO: process.env.SUDO || "50948748102",
    PRESENCE: process.env.PRESENCE || "available", // "unavailable", "available", "composing", "recording", "paused"
    CAPTION: process.env.CAPTION || "© Kᴇʀᴍ ᴍᴅ",
    TIME_ZONE: process.env.TIME_ZONE || "Africa/Lagos",
    ANTILINK_ACTION: process.env.ANTI_LINK || "kick",
    BRANCH: "master",
-   AUTHOR: process.env.AUTHOR || "Kᴇʀᴍ-ᴍᴅ",
+   AUTHOR: process.env.AUTHOR || "𓄂⍣⃝𝐆𝚯𝐃𝄟✮͢≛ 𝐒𝚫𝐒𝐔𝐊𝚵⃝𝄟✮⃝👑",
    ANTIWORD: process.env.ANTIWORD || "badword1,badword2,badword3",
    PACKNAME: process.env.PACKNAME || "KᴇʀᴍLɪᴛᴇ⚡️",
    WELCOME_MSG: process.env.WELCOME_MSG || "Hi @user Welcome to @gname",
